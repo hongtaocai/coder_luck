@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520DAB1C186FCF5F00B51E01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520DAB1B186FCF5F00B51E01 /* Foundation.framework */; };
+		520DAB1E186FCF5F00B51E01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520DAB1D186FCF5F00B51E01 /* CoreGraphics.framework */; };
+		520DAB20186FCF6000B51E01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520DAB1F186FCF6000B51E01 /* UIKit.framework */; };
+		520DAB26186FCF6000B51E01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 520DAB24186FCF6000B51E01 /* InfoPlist.strings */; };
+		520DAB28186FCF6000B51E01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 520DAB27186FCF6000B51E01 /* main.m */; };
+		520DAB2C186FCF6000B51E01 /* CForAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 520DAB2B186FCF6000B51E01 /* CForAppDelegate.m */; };
+		520DAB2F186FCF6000B51E01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520DAB2D186FCF6000B51E01 /* Main.storyboard */; };
+		520DAB32186FCF6000B51E01 /* CForViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520DAB31186FCF6000B51E01 /* CForViewController.m */; };
+		520DAB34186FCF6000B51E01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520DAB33186FCF6000B51E01 /* Images.xcassets */; };
+		520DAB3B186FCF6000B51E01 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520DAB3A186FCF6000B51E01 /* XCTest.framework */; };
+		520DAB3C186FCF6000B51E01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520DAB1B186FCF5F00B51E01 /* Foundation.framework */; };
+		520DAB3D186FCF6000B51E01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520DAB1F186FCF6000B51E01 /* UIKit.framework */; };
+		520DAB45186FCF6000B51E01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 520DAB43186FCF6000B51E01 /* InfoPlist.strings */; };
+		520DAB47186FCF6000B51E01 /* Coder_LuckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 520DAB46186FCF6000B51E01 /* Coder_LuckTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		520DAB3E186FCF6000B51E01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 520DAB10186FCF5F00B51E01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 520DAB17186FCF5F00B51E01;
+			remoteInfo = "Coder Luck";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		520DAB18186FCF5F00B51E01 /* Coder Luck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coder Luck.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		520DAB1B186FCF5F00B51E01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		520DAB1D186FCF5F00B51E01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		520DAB1F186FCF6000B51E01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		520DAB23186FCF6000B51E01 /* Coder Luck-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Coder Luck-Info.plist"; sourceTree = "<group>"; };
+		520DAB25186FCF6000B51E01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		520DAB27186FCF6000B51E01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		520DAB29186FCF6000B51E01 /* Coder Luck-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Coder Luck-Prefix.pch"; sourceTree = "<group>"; };
+		520DAB2A186FCF6000B51E01 /* CForAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CForAppDelegate.h; sourceTree = "<group>"; };
+		520DAB2B186FCF6000B51E01 /* CForAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CForAppDelegate.m; sourceTree = "<group>"; };
+		520DAB2E186FCF6000B51E01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		520DAB30186FCF6000B51E01 /* CForViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CForViewController.h; sourceTree = "<group>"; };
+		520DAB31186FCF6000B51E01 /* CForViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CForViewController.m; sourceTree = "<group>"; };
+		520DAB33186FCF6000B51E01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		520DAB39186FCF6000B51E01 /* Coder LuckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coder LuckTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		520DAB3A186FCF6000B51E01 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		520DAB42186FCF6000B51E01 /* Coder LuckTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Coder LuckTests-Info.plist"; sourceTree = "<group>"; };
+		520DAB44186FCF6000B51E01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		520DAB46186FCF6000B51E01 /* Coder_LuckTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Coder_LuckTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		520DAB15186FCF5F00B51E01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520DAB1E186FCF5F00B51E01 /* CoreGraphics.framework in Frameworks */,
+				520DAB20186FCF6000B51E01 /* UIKit.framework in Frameworks */,
+				520DAB1C186FCF5F00B51E01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520DAB36186FCF6000B51E01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520DAB3B186FCF6000B51E01 /* XCTest.framework in Frameworks */,
+				520DAB3D186FCF6000B51E01 /* UIKit.framework in Frameworks */,
+				520DAB3C186FCF6000B51E01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		520DAB0F186FCF5F00B51E01 = {
+			isa = PBXGroup;
+			children = (
+				520DAB21186FCF6000B51E01 /* Coder Luck */,
+				520DAB40186FCF6000B51E01 /* Coder LuckTests */,
+				520DAB1A186FCF5F00B51E01 /* Frameworks */,
+				520DAB19186FCF5F00B51E01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		520DAB19186FCF5F00B51E01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				520DAB18186FCF5F00B51E01 /* Coder Luck.app */,
+				520DAB39186FCF6000B51E01 /* Coder LuckTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		520DAB1A186FCF5F00B51E01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				520DAB1B186FCF5F00B51E01 /* Foundation.framework */,
+				520DAB1D186FCF5F00B51E01 /* CoreGraphics.framework */,
+				520DAB1F186FCF6000B51E01 /* UIKit.framework */,
+				520DAB3A186FCF6000B51E01 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		520DAB21186FCF6000B51E01 /* Coder Luck */ = {
+			isa = PBXGroup;
+			children = (
+				520DAB2A186FCF6000B51E01 /* CForAppDelegate.h */,
+				520DAB2B186FCF6000B51E01 /* CForAppDelegate.m */,
+				520DAB2D186FCF6000B51E01 /* Main.storyboard */,
+				520DAB30186FCF6000B51E01 /* CForViewController.h */,
+				520DAB31186FCF6000B51E01 /* CForViewController.m */,
+				520DAB33186FCF6000B51E01 /* Images.xcassets */,
+				520DAB22186FCF6000B51E01 /* Supporting Files */,
+			);
+			path = "Coder Luck";
+			sourceTree = "<group>";
+		};
+		520DAB22186FCF6000B51E01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				520DAB23186FCF6000B51E01 /* Coder Luck-Info.plist */,
+				520DAB24186FCF6000B51E01 /* InfoPlist.strings */,
+				520DAB27186FCF6000B51E01 /* main.m */,
+				520DAB29186FCF6000B51E01 /* Coder Luck-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		520DAB40186FCF6000B51E01 /* Coder LuckTests */ = {
+			isa = PBXGroup;
+			children = (
+				520DAB46186FCF6000B51E01 /* Coder_LuckTests.m */,
+				520DAB41186FCF6000B51E01 /* Supporting Files */,
+			);
+			path = "Coder LuckTests";
+			sourceTree = "<group>";
+		};
+		520DAB41186FCF6000B51E01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				520DAB42186FCF6000B51E01 /* Coder LuckTests-Info.plist */,
+				520DAB43186FCF6000B51E01 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		520DAB17186FCF5F00B51E01 /* Coder Luck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520DAB4A186FCF6000B51E01 /* Build configuration list for PBXNativeTarget "Coder Luck" */;
+			buildPhases = (
+				520DAB14186FCF5F00B51E01 /* Sources */,
+				520DAB15186FCF5F00B51E01 /* Frameworks */,
+				520DAB16186FCF5F00B51E01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coder Luck";
+			productName = "Coder Luck";
+			productReference = 520DAB18186FCF5F00B51E01 /* Coder Luck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		520DAB38186FCF6000B51E01 /* Coder LuckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520DAB4D186FCF6000B51E01 /* Build configuration list for PBXNativeTarget "Coder LuckTests" */;
+			buildPhases = (
+				520DAB35186FCF6000B51E01 /* Sources */,
+				520DAB36186FCF6000B51E01 /* Frameworks */,
+				520DAB37186FCF6000B51E01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				520DAB3F186FCF6000B51E01 /* PBXTargetDependency */,
+			);
+			name = "Coder LuckTests";
+			productName = "Coder LuckTests";
+			productReference = 520DAB39186FCF6000B51E01 /* Coder LuckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		520DAB10186FCF5F00B51E01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CFor;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Coder Inc.";
+				TargetAttributes = {
+					520DAB38186FCF6000B51E01 = {
+						TestTargetID = 520DAB17186FCF5F00B51E01;
+					};
+				};
+			};
+			buildConfigurationList = 520DAB13186FCF5F00B51E01 /* Build configuration list for PBXProject "Coder Luck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 520DAB0F186FCF5F00B51E01;
+			productRefGroup = 520DAB19186FCF5F00B51E01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				520DAB17186FCF5F00B51E01 /* Coder Luck */,
+				520DAB38186FCF6000B51E01 /* Coder LuckTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		520DAB16186FCF5F00B51E01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520DAB34186FCF6000B51E01 /* Images.xcassets in Resources */,
+				520DAB26186FCF6000B51E01 /* InfoPlist.strings in Resources */,
+				520DAB2F186FCF6000B51E01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520DAB37186FCF6000B51E01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520DAB45186FCF6000B51E01 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		520DAB14186FCF5F00B51E01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520DAB2C186FCF6000B51E01 /* CForAppDelegate.m in Sources */,
+				520DAB32186FCF6000B51E01 /* CForViewController.m in Sources */,
+				520DAB28186FCF6000B51E01 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520DAB35186FCF6000B51E01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520DAB47186FCF6000B51E01 /* Coder_LuckTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		520DAB3F186FCF6000B51E01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 520DAB17186FCF5F00B51E01 /* Coder Luck */;
+			targetProxy = 520DAB3E186FCF6000B51E01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		520DAB24186FCF6000B51E01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520DAB25186FCF6000B51E01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		520DAB2D186FCF6000B51E01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520DAB2E186FCF6000B51E01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		520DAB43186FCF6000B51E01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520DAB44186FCF6000B51E01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		520DAB48186FCF6000B51E01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		520DAB49186FCF6000B51E01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		520DAB4B186FCF6000B51E01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coder Luck/Coder Luck-Prefix.pch";
+				INFOPLIST_FILE = "Coder Luck/Coder Luck-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		520DAB4C186FCF6000B51E01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coder Luck/Coder Luck-Prefix.pch";
+				INFOPLIST_FILE = "Coder Luck/Coder Luck-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		520DAB4E186FCF6000B51E01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Coder Luck.app/Coder Luck";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coder Luck/Coder Luck-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Coder LuckTests/Coder LuckTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		520DAB4F186FCF6000B51E01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Coder Luck.app/Coder Luck";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coder Luck/Coder Luck-Prefix.pch";
+				INFOPLIST_FILE = "Coder LuckTests/Coder LuckTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		520DAB13186FCF5F00B51E01 /* Build configuration list for PBXProject "Coder Luck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520DAB48186FCF6000B51E01 /* Debug */,
+				520DAB49186FCF6000B51E01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520DAB4A186FCF6000B51E01 /* Build configuration list for PBXNativeTarget "Coder Luck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520DAB4B186FCF6000B51E01 /* Debug */,
+				520DAB4C186FCF6000B51E01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		520DAB4D186FCF6000B51E01 /* Build configuration list for PBXNativeTarget "Coder LuckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520DAB4E186FCF6000B51E01 /* Debug */,
+				520DAB4F186FCF6000B51E01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 520DAB10186FCF5F00B51E01 /* Project object */;
+}
