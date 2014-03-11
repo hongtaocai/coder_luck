@@ -21,6 +21,15 @@
 		520DAB3D186FCF6000B51E01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520DAB1F186FCF6000B51E01 /* UIKit.framework */; };
 		520DAB45186FCF6000B51E01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 520DAB43186FCF6000B51E01 /* InfoPlist.strings */; };
 		520DAB47186FCF6000B51E01 /* Coder_LuckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 520DAB46186FCF6000B51E01 /* Coder_LuckTests.m */; };
+		520DAB53186FDE6300B51E01 /* four.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 520DAB51186FDE6200B51E01 /* four.jpg */; };
+		520DAB54186FDE6300B51E01 /* front.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 520DAB52186FDE6300B51E01 /* front.jpg */; };
+		520DAB57186FE36900B51E01 /* CForShakingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 520DAB56186FE36900B51E01 /* CForShakingView.m */; };
+		520DAB60186FEC4F00B51E01 /* CForExplainationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520DAB5F186FEC4F00B51E01 /* CForExplainationController.m */; };
+		520DAB6518712A3C00B51E01 /* pic4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 520DAB6118712A3C00B51E01 /* pic4.jpg */; };
+		520DAB6618712A3C00B51E01 /* pic3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 520DAB6218712A3C00B51E01 /* pic3.jpg */; };
+		520DAB6718712A3C00B51E01 /* pic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 520DAB6318712A3C00B51E01 /* pic1.jpg */; };
+		520DAB6818712A3C00B51E01 /* pic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 520DAB6418712A3C00B51E01 /* pic2.jpg */; };
+		520DAB6B187153C800B51E01 /* CForPredictUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 520DAB6A187153C800B51E01 /* CForPredictUILabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +62,18 @@
 		520DAB42186FCF6000B51E01 /* Coder LuckTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Coder LuckTests-Info.plist"; sourceTree = "<group>"; };
 		520DAB44186FCF6000B51E01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		520DAB46186FCF6000B51E01 /* Coder_LuckTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Coder_LuckTests.m; sourceTree = "<group>"; };
+		520DAB51186FDE6200B51E01 /* four.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = four.jpg; sourceTree = "<group>"; };
+		520DAB52186FDE6300B51E01 /* front.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = front.jpg; sourceTree = "<group>"; };
+		520DAB55186FE36900B51E01 /* CForShakingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CForShakingView.h; path = toolclass/CForShakingView.h; sourceTree = "<group>"; };
+		520DAB56186FE36900B51E01 /* CForShakingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CForShakingView.m; path = toolclass/CForShakingView.m; sourceTree = "<group>"; };
+		520DAB5E186FEC4F00B51E01 /* CForExplainationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CForExplainationController.h; sourceTree = "<group>"; };
+		520DAB5F186FEC4F00B51E01 /* CForExplainationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CForExplainationController.m; sourceTree = "<group>"; };
+		520DAB6118712A3C00B51E01 /* pic4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic4.jpg; sourceTree = "<group>"; };
+		520DAB6218712A3C00B51E01 /* pic3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic3.jpg; sourceTree = "<group>"; };
+		520DAB6318712A3C00B51E01 /* pic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic1.jpg; sourceTree = "<group>"; };
+		520DAB6418712A3C00B51E01 /* pic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic2.jpg; sourceTree = "<group>"; };
+		520DAB69187153C800B51E01 /* CForPredictUILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CForPredictUILabel.h; sourceTree = "<group>"; };
+		520DAB6A187153C800B51E01 /* CForPredictUILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CForPredictUILabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +133,7 @@
 		520DAB21186FCF6000B51E01 /* Coder Luck */ = {
 			isa = PBXGroup;
 			children = (
+				520DAB50186FDE6200B51E01 /* img */,
 				520DAB2A186FCF6000B51E01 /* CForAppDelegate.h */,
 				520DAB2B186FCF6000B51E01 /* CForAppDelegate.m */,
 				520DAB2D186FCF6000B51E01 /* Main.storyboard */,
@@ -119,6 +141,12 @@
 				520DAB31186FCF6000B51E01 /* CForViewController.m */,
 				520DAB33186FCF6000B51E01 /* Images.xcassets */,
 				520DAB22186FCF6000B51E01 /* Supporting Files */,
+				520DAB55186FE36900B51E01 /* CForShakingView.h */,
+				520DAB56186FE36900B51E01 /* CForShakingView.m */,
+				520DAB5E186FEC4F00B51E01 /* CForExplainationController.h */,
+				520DAB5F186FEC4F00B51E01 /* CForExplainationController.m */,
+				520DAB69187153C800B51E01 /* CForPredictUILabel.h */,
+				520DAB6A187153C800B51E01 /* CForPredictUILabel.m */,
 			);
 			path = "Coder Luck";
 			sourceTree = "<group>";
@@ -150,6 +178,19 @@
 				520DAB43186FCF6000B51E01 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		520DAB50186FDE6200B51E01 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				520DAB6118712A3C00B51E01 /* pic4.jpg */,
+				520DAB6218712A3C00B51E01 /* pic3.jpg */,
+				520DAB6318712A3C00B51E01 /* pic1.jpg */,
+				520DAB6418712A3C00B51E01 /* pic2.jpg */,
+				520DAB51186FDE6200B51E01 /* four.jpg */,
+				520DAB52186FDE6300B51E01 /* front.jpg */,
+			);
+			path = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +241,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Coder Inc.";
 				TargetAttributes = {
+					520DAB17186FCF5F00B51E01 = {
+						DevelopmentTeam = 3LQ2ZNBZB3;
+					};
 					520DAB38186FCF6000B51E01 = {
 						TestTargetID = 520DAB17186FCF5F00B51E01;
 					};
@@ -230,8 +274,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				520DAB34186FCF6000B51E01 /* Images.xcassets in Resources */,
+				520DAB6518712A3C00B51E01 /* pic4.jpg in Resources */,
 				520DAB26186FCF6000B51E01 /* InfoPlist.strings in Resources */,
 				520DAB2F186FCF6000B51E01 /* Main.storyboard in Resources */,
+				520DAB6818712A3C00B51E01 /* pic2.jpg in Resources */,
+				520DAB6718712A3C00B51E01 /* pic1.jpg in Resources */,
+				520DAB54186FDE6300B51E01 /* front.jpg in Resources */,
+				520DAB53186FDE6300B51E01 /* four.jpg in Resources */,
+				520DAB6618712A3C00B51E01 /* pic3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +302,9 @@
 			files = (
 				520DAB2C186FCF6000B51E01 /* CForAppDelegate.m in Sources */,
 				520DAB32186FCF6000B51E01 /* CForViewController.m in Sources */,
+				520DAB57186FE36900B51E01 /* CForShakingView.m in Sources */,
+				520DAB60186FEC4F00B51E01 /* CForExplainationController.m in Sources */,
+				520DAB6B187153C800B51E01 /* CForPredictUILabel.m in Sources */,
 				520DAB28186FCF6000B51E01 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,10 +432,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Coder Luck/Coder Luck-Prefix.pch";
 				INFOPLIST_FILE = "Coder Luck/Coder Luck-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,10 +448,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Coder Luck/Coder Luck-Prefix.pch";
 				INFOPLIST_FILE = "Coder Luck/Coder Luck-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

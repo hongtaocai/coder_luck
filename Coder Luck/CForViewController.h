@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface CForViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *shakingText;
+@property (weak, nonatomic) IBOutlet UIImageView *pictop1;
 
+@property (weak, nonatomic) IBOutlet UIImageView *pictop2;
 @end
